@@ -99,7 +99,7 @@ The final aggregated GDSII layout stream passed all structural and manufacturing
     </td>
     <td width="50%">
       <p align="center">
-        <img src="docs/source/_static/k3.png" alt="Murax GDSII Geometry Close-up" width="100%">
+        <img src="docs/source/_static/k4.png" alt="Murax GDSII Geometry Close-up" width="100%">
         <br>
         <i><b>GDSII Logic Boundary Close-up:</b> Individual routing channels at maximum physical zoom depth.</i>
       </p>
