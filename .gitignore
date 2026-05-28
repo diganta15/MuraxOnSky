@@ -1,0 +1,55 @@
+# ==========================================
+# 1. Virtual Environments & Python
+# ==========================================
+venv/
+venv-cocotb/
+__pycache__/
+*.pyc
+
+# ==========================================
+# 2. Caravel Dependencies
+# ==========================================
+# These are downloaded via `make setup` and shouldn't be committed
+dependencies/
+caravel/
+mgmt_core_wrapper/
+pdk/
+tar/
+
+# ==========================================
+# 3. OpenLANE & EDA Tool Logs
+# ==========================================
+# CRITICAL: Blocks the massive 15GB run folders!
+openlane/**/runs/
+openlane/**/Odb.out
+*.log
+*.rpt
+*.out
+
+# ==========================================
+# 4. Simulation Artifacts
+# ==========================================
+*.vcd
+*.vvp
+*.elf
+*.hexe
+
+# ==========================================
+# 5. The "100MB Limit" GDS Trap
+# ==========================================
+# Ignore raw uncompressed physical layout files
+gds/*.gds
+mag/*.mag
+maglef/*.mag
+lef/*.lef
+def/*.def
+spef/*.spef
+sdf/*.sdf
+spi/lvs/*.spice
+
+# KEEP compressed versions (created by `make compress`)!
+!gds/*.gds.gz
+!mag/*.mag.gz
+!lef/*.lef.gz
+!def/*.def.gz
+!spi/lvs/*.spice.gz

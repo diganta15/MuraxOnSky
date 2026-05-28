@@ -1,0 +1,36 @@
+{
+    "DESIGN_NAME": "Murax",
+    "VERILOG_FILES": [
+        "dir::../../verilog/rtl/defines.v",
+        "dir::../../verilog/rtl/Murax.v"
+    ],
+    "CLOCK_PERIOD": 25,
+    "CLOCK_PORT": "io_mainClk",
+    "CLOCK_NET": "io_mainClk",
+
+    "FP_SIZING": "relative",
+    "FP_CORE_UTIL": 30,
+    "PL_TARGET_DENSITY": 0.35,
+    "FP_PDN_CORE_RING": 0,
+
+    "RUN_CTS": 1,
+    "GRT_REPAIR_ANTENNAS": 1,
+    "RUN_CVC": 0,
+
+    "PL_RESIZER_DESIGN_OPTIMIZATIONS": 1,
+    "PL_RESIZER_TIMING_OPTIMIZATIONS": 1,
+    "GLB_RESIZER_DESIGN_OPTIMIZATIONS": 1,
+    "GLB_RESIZER_TIMING_OPTIMIZATIONS": 1,
+    "QUIT_ON_TIMING_VIOLATIONS": 0,
+
+    "SYNTH_USE_PG_PINS_DEFINES": "USE_POWER_PINS",
+    "VDD_NETS": ["vccd1"],
+    "GND_NETS": ["vssd1"],
+
+    "pdk::sky130*": {
+        "RT_MAX_LAYER": "met4",
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 25
+        }
+    }
+}
