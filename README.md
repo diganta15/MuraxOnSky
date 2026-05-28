@@ -179,7 +179,7 @@ Ensure your local environment has Docker installed and the Sky130 PDK configured
 
 ```bash
 # 1. Clone the repository and initialize dependencies
-git clone [https://github.com/YOUR_USERNAME/murax-sky130-tapeout.git](https://github.com/YOUR_USERNAME/murax-sky130-tapeout.git)
+git clone [https://github.com/diganta15/MuraxOnSky.git](https://github.com/diganta15/MuraxOnSky.git)
 cd murax-sky130-tapeout
 make setup
 
