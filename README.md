@@ -150,14 +150,14 @@ This 3D visualization highlights the physical spatial relationship between the i
   <tr>
     <td width="50%">
       <p align="center">
-        <img src="docs/source/_static/v1.png" alt="ASIC Isometric View" width="100%">
+        <img src="docs/source/_static/v3.png" alt="ASIC Isometric View" width="100%">
         <br>
         <i><b>Isometric Overview:</b> Sharp $45^\circ$ oblique view demonstrating standard cell topography.</i>
       </p>
     </td>
     <td width="50%">
       <p align="center">
-        <img src="docs/source/_static/v3.png" alt="ASIC Metal Wires Close-up" width="100%">
+        <img src="docs/source/_static/v1.png" alt="ASIC Metal Wires Close-up" width="100%">
         <br>
         <i><b>Ray-Traced Close-up:</b> Deep trench shadows visible inside individual routing channels.</i>
       </p>

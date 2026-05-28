@@ -53,3 +53,11 @@ spi/lvs/*.spice
 !lef/*.lef.gz
 !def/*.def.gz
 !spi/lvs/*.spice.gz
+
+# Ignore ALL raw uncompressed parasitic timing files anywhere in the repo
+**/*.spef
+spef/**/*.spef
+spef/multicorner/*.spef
+
+# KEEP compressed versions only!
+!**/*.spef.gz
